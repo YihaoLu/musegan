@@ -1,4 +1,3 @@
-#!/bin/bash
 # This script performs interpolation on the latent space of a trained model. It
 # first looks for the configuration and model parameter files in the experiment
 # directory and then performs interpolation on the latent space of the trained

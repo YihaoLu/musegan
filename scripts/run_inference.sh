@@ -1,4 +1,3 @@
-#!/bin/bash
 # This script performs inference from a trained model. It first looks for the
 # configuration and model parameter files in the experiment directory and then
 # performs inference from the trained model on the specified GPU.

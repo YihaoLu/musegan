@@ -1,4 +1,3 @@
-#!/bin/bash
 # This script collect training data from a given directory by looking
 # for all the files in that directory that end wih ".mid" and converting
 # them to a five-track pianoroll dataset.

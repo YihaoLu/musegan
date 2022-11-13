@@ -1,4 +1,3 @@
-#!/bin/bash
 # This script trains a model. It first looks for the configuration and model
 # parameter files in the experiment directory and then trains the model on the
 # specified GPU.
@@ -15,5 +14,5 @@ if [ -z "$2" ]; then
 else
   gpu="$2"
 fi
-python3 "$DIR/../src/train.py" --exp_dir "$1" --params "$1/params.yaml" \
+python "$DIR/../src/train.py" --exp_dir "$1" --params "$1/params.yaml" \
   --config "$1/config.yaml" --gpu "$gpu"
