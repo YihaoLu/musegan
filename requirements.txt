@@ -6,14 +6,14 @@ grpcio==1.32.0
 imageio==2.3.0
 Markdown==2.6.11
 mido==1.2.8
-numpy==1.20
+#numpy==1.23.3
 Pillow==7.2.0
 pretty-midi==0.2.8
 protobuf==3.9.2
 pypianoroll==0.4.6
 PyYAML==3.13
 scipy==1.4.1
-SharedArray==3.0.0
+#SharedArray==3.2.2
 six==1.15.0
 tensorboard==2.4
 tensorflow-gpu==2.4.1
